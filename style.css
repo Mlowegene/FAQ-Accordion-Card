@@ -33,6 +33,46 @@ body {
     border-radius: 1rem;
 }
 
+.image {
+    background-image: url(/images/bg-pattern-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 7rem;
+    display: flex;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+.woman {
+    background-image: url(/images/illustration-woman-online-desktop.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    padding-right: 7rem;
+    padding-top: rem;
+    display: flex;
+    align-content: center;
+    /* border: 1px solid red; */
+}
+
+.title {
+    margin-bottom: 1.2rem;
+}
+
+.content {
+    margin: 1rem;
+
+}
+
+.desc {
+    color: hsl(240, 6%, 50%);
+    margin-bottom: .3rem;
+    padding: 8px 0;
+}
+
+.desc h4 img {
+    position: absolute;
+    right: 18rem;
+}
+
 .attribution { 
     font-size: 11px; text-align: center; 
     color: hsl(0, 0%, 100%);font-size: large;
