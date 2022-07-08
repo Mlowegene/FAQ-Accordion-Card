@@ -17,16 +17,28 @@
 body {
     font-size: 12px;
     font-family: 'Kumbh Sans', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(273, 75%, 66%);
 }
 
-
-
-
-
+.card {
+    display: flex;
+    margin: 2rem;
+    background-color: white;
+    width: 50rem;
+    height: 30rem;
+    border-radius: 1rem;
+}
 
 .attribution { 
     font-size: 11px; text-align: center; 
+    color: hsl(0, 0%, 100%);font-size: large;
+    margin-top: 50px;
 }
 .attribution a { 
-    color: hsl(228, 45%, 44%); 
+    color: hsl(228, 45%, 44%);
+    text-decoration: none; 
 }
