@@ -120,3 +120,16 @@ body {
     color: hsl(240, 5%, 91%);
     text-decoration: none; 
 }
+
+
+
+@media only screen and(max-width = 375px) {
+   
+    .card {
+        /* display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows: 100px 100px; */
+        background-color: black;
+    }
+    
+}
